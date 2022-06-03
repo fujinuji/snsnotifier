@@ -31,7 +31,7 @@ The credentials can be stored multiple way, this including:
 - Java System Properties - aws.accessKeyId and aws.secretKey
 - Credential profiles file at the default location (~/.aws/credentials)
 - Instance profile credentials delivered through the Amazon EC2 metadata service
--
+
 
 As part of your job: add post-build step for SNS notification, optionally configure subject and message (you can make use of build and environment variables, which do get substituted), resp. override Topic ARN (if you do not want to stick with globally configured one).
 
